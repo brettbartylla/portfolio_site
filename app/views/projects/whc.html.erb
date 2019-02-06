@@ -1,0 +1,97 @@
+<style>
+.navbar{
+    justify-content:center;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <%= link_to 'Home', '/', class:'nav-link' %> 
+      </li>
+    <li class="nav-item">
+        <%= link_to 'Previous', '/projects/scotchbrand', class:'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Next', '/projects/riosoutdoorco', class:'nav-link' %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container projects">
+    <!--header section-->
+    <div class="row section-margin">
+        <div class="col-md-12">
+            <h1 class="project-header">Whitetail Habitat Consulting</h1>
+        </div>
+    </div>
+    <!--intro section GET THIS FULL WIDTH-->
+    <div class="row intro">
+        <div class="col-md-12 light-grey-bg">
+            <div class="row">
+                <div class="col-md-6 pt-2">
+                    <p>Whitetail Habitat Consulting was founded in 2017 in Luck Wisconsin by Joseph Bartylla. 
+                    It helps outdoors enthusiasts improve their hunts by gathering data via both satellite 
+                    imagery and on site visits to hobbiests land in order to provide them with the best 
+                    maps and plans to further improve their wildlife managment skills.
+                    <!--
+                    Initially the company started as a snc, but in 1992 it will change its business name to Srl. 
+                    Oleomec Srl is a qualified company, which apart from to deal with the distribution and resale 
+                    of the major brands of pneumatic and hydraulic sector, technical articles of broad application 
+                    and specific products for the pharmaceutical industry, food and beverages, offers to its customers 
+                    a wide range of services: external design programmed and the possibility to call for urgencies and 
+                    extraordinary maintenance, filtration hydraulic oil.--></p>
+                </div>
+                <div class="col-md-6 pt-3 pb-3">
+                    <%= link_to image_tag("home/whc_thumb.jpg", alt: "whitetailhabitatconsulting",class: "askew-1 project img-fluid"), 'http://whitetailhabitatconsulting.com' %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills section-->
+    <div class="row section-margin">
+        <div class="col-md-12 text-left">
+            <div class="">
+                <h1>Skills Used</h1>
+                <p><span class="highlight focus-text">PHP, </span> <span class="highlight focus-text">HTML, </span> <span class="highlight focus-text">jQuery, </span> <span class="highlight focus-text">CSS3, </span><span class="highlight focus-text">Bootstrap 3, </span> <span class="highlight focus-text">CSS Grid, </span> <span class="highlight focus-text">Analyitics</span> </p>
+                
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end skills section-->
+
+
+    <!--description section-->
+    <div class="row description pt-5">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li><b>Role.</b></li>
+                        <li>FrontEnd / Backend(PHP) / UX Design</li>
+                        <li><b>Type.</b></li>
+                        <li>Small Business</li>
+                        <li><b>Year.</b></li>
+                        <li>2017</li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <p>This is a small site I built for my father's business. He has recieved most of his 
+                        contracts from clients finding the site.  It has been a fun experience building and maintaining
+                        the site.  I have enjouyed working on the SEO and user experience design and watching his clientbase
+                        grow due to my contribution.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

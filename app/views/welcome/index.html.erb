@@ -1,0 +1,294 @@
+
+<div class="overflow-wrap">
+    <div class="modal-wrap">
+        <!--need to insert model wrap stuff if want carousel projects to work-->
+            <section id="home">
+                <div id="particles-js">
+                    <!--<canvas id="canvas" width="2880" height="772" style="width: 1440px; height: 386px;"></canvas>-->
+                    <div class="home-txt text-center centered-content">
+                        Hello, I'm <span class="highlight">Brett Bartylla</span>.
+                        <br>
+                        I'm a full-stack web developer.
+                        <div class="pt-3">
+                            
+                            <%= link_to '#hello', class:"btn-custom btn-my-work" do %>
+                                View my work <i class="fas fa-arrow-right"></i>
+                            <% end %>
+                        </div>
+                    </div>
+                    <nav class="flex desk my-nav nav-default not-on-mobile">
+                        <div class="link-wrap">
+                            <div class="active my-page-link home-link" dest="home">home</div>
+                            <div class="my-page-link about-link" dest="about">about</div>
+                            <div class="my-page-link portfolio-link" dest="portfolio">portfolio</div>
+                            <div class="my-page-link"><a class="resume-link" href="Brett_Bartylla_Resume.pdf">resume</a></div>
+                        </div>
+                        <i class="mdi mdi-menu"></i>
+                    </nav>
+                    <!--mobile nav-->
+                    <nav class="flex desk my-nav nav-default not-on-desktop">
+                        <div id="topNav" class="navigation">
+                            <span id="closebtn">
+                                <span class="line1"></span>
+                                <span class="line2"></span>
+                                <span class="line3"></span>
+                            </span>
+                            <ul class="menulist">
+                                <li><a class="menuitems" href="#"><div class="active my-page-link" dest="home">home</div></a></li>		
+                                <li><a class="menuitems" href="#"><div class="my-page-link about-link" dest="about">about</div></a></li>				
+                                <li><a class="menuitems" href="#"><div class="my-page-link portfolio-link" dest="portfolio">portfolio</div></a></li>
+                                <li><a class="menuitems resume-link" href="Brett_Bartylla_Resume.pdf">resume</a></li>
+                            </ul>			
+                        </div>
+                        <div id="main">
+                        </div>
+                    </nav>
+                    <!--end mobile nav-->
+
+                </div>
+            </section><!--end home section-->
+        <div id="about-section"></div>
+        <section id="about">
+            <div class="container">
+                <div class="about-header text-center">
+                    <h1 class="header">ABOUT</h1>
+                    <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+                    <div class="grid">
+                        <div class="about-desc">
+                            <div class="hexagon-wrapper">
+                                <div class="hexagon">
+                                    <%= image_tag("icons/speedometer.png", alt: "dolefoodservice",class: "img-fluid hex-img") %>
+                                </div>
+                            </div>
+                            <div class="abt-bld">Fast</div>
+                            <p>Fast load times and lag free interaction, my highest priority.</p>
+                        </div>
+                        <div class="about-desc">
+                            <div class="hexagon-wrapper">
+                                <div class="hexagon">
+                                    <%= image_tag("icons/responsive.png", alt: "dolefoodservice",class: "img-fluid hex-img") %>
+                                </div>
+                            </div>
+                            <div class="abt-bld">Responsive</div>
+                            <p>My layouts will work on any device, big or small.</p>
+                        </div>
+                        <div class="about-desc">
+                            <div class="hexagon-wrapper">
+                                <div class="hexagon">
+                                    <%= image_tag("icons/lightbulb.png", alt: "dolefoodservice",class: "img-fluid hex-img") %>
+                                </div>
+                            </div>
+                            <div class="abt-bld">Intuitive</div>
+                            <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                        </div>
+                        <div class="about-desc">
+                            <div class="hexagon-wrapper">
+                                <div class="hexagon">
+                                    <%= image_tag("icons/rocket.png", alt: "dolefoodservice",class: "img-fluid hex-img") %>
+                                </div>
+                            </div>
+                            <div class="abt-bld">Dynamic</div>
+                            <p>Websites don't have to be static, I love making pages come to life.</p>
+                        </div>
+                    </div>
+                    <!--skills section-->
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+
+
+                        <div class="hexagon-me pic">
+                            <span class="top"></span>
+                            <span class="bottom"></span>
+                        </div>
+
+
+
+                            <!--
+                            <div class="hexagon-wrapper-2">
+                                <div class="hexagon-2">
+                                <%= link_to image_tag("home/postit_thumb.jpg", alt: "post it",class: "askew-1 project img-fluid"), '/projects/1' %>
+                            
+                                </div>
+                            </div>
+                            -->
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skillbar clearfix " data-percent="65%">
+                                <div class="skillbar-title" id="javascript" style="background: #04C2C9;"><span>Ruby/Rails</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">65%</div>
+                            </div> <!-- End Skill Bar -->
+
+
+                            <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title" style="background: #04C2C9;"><span>HTML5</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">90%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="80%">
+                                <div class="skillbar-title" style="background: #04C2C9;"><span>CSS3/SASS</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">80%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="70%">
+                                <div class="skillbar-title" style="background: #04C2C9;"><span>JavaScript</span></div>
+                                <div class="skillbar-bar"  style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="40%">
+                                <div class="skillbar-title" style="background: #04C2C9;"><span>PHP</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">40%</div>
+                            </div> <!-- End Skill Bar -->
+
+
+                            <div class="skillbar clearfix " data-percent="70%">
+                                <div class="skillbar-title"  style="background: #04C2C9;"><span>UI Design</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="60%">
+                                <div class="skillbar-title" style="background: #04C2C9;"><span>Photoshop</span></div>
+                                <div class="skillbar-bar" style="background: #00A1A7;"></div>
+                                <div class="skill-bar-percent">60%</div>
+                            </div> <!-- End Skill Bar -->
+                        </div>
+                    </div><!--end skills section-->
+                </div>
+            </div><!--end container-->
+        </section>
+        <div id="my-work"></div>
+        <section id="projects" class="mt-5 pt-5">
+            <div class="container">
+                <div class="about-header text-center">
+                    <h1 class="header projects-header">PROJECTS</h1>
+                    <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-4 project-animation">
+                        <div class="project-container">
+                            <%= link_to image_tag("home/rios.png", alt: "brutalism",class: "askew-3 project img-fluid"), '/projects/3' %>
+                            <%= link_to '/projects/riosoutdoorco' do %>
+                                <div class="overlay">
+                                    <div class="text">rios outdoors.
+                                        <br>
+                                        <span class="skills-used">design frontend ux backend</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                    </div> 
+
+
+
+                    <div class="col-md-4 project-animation">
+                        <div class="project-container">
+                            <%= image_tag("home/dolefoodservice_thumb.jpg", alt: "dolefoodservice",class: "askew-1 project img-fluid") %>
+                            <%= link_to '/projects/dolefoodservice' do %>
+                                <div class="overlay">
+                                    <div class="text">dole foodservice.
+                                        <br>
+                                        <span class="skills-used">design frontend ux</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                    </div> 
+
+                    <div class="col-md-4 project-animation">
+                    <!--<br><br>-->
+                        <div class="project-container">
+                            <%= link_to image_tag("home/postit_thumb.jpg", alt: "post it",class: "askew-1 project img-fluid"), '/projects/1' %>
+                            <%= link_to '/projects/post-it' do %>
+                                <div class="overlay">
+                                    <div class="text">post-it.
+                                        <br>
+                                        <span class="skills-used">frontend backend</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                    </div> 
+
+                    <div class="col-md-4 pt-4 project-animation">
+                        <div class="project-container">
+                            <%= link_to image_tag("home/cedarvalleynursery_thumb.jpg", alt: "brutalism",class: "askew-3 project img-fluid"), '/projects/3' %>
+                            <%= link_to '/projects/scotchbrand' do %>
+                                <div class="overlay">
+                                    <div class="text">cedarvalleynursery.
+                                        <br>
+                                        <span class="skills-used">design frontend ux backend</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                    </div> 
+
+
+                    <div class="col-md-4 pt-4 project-animation">
+                        <div class="project-container">
+                            <%= link_to image_tag("home/scotchbrand_thumb.jpg", alt: "brutalism",class: "askew-3 project img-fluid"), '/projects/3' %>
+                            <%= link_to '/projects/scotchbrand' do %>
+                                <div class="overlay">
+                                    <div class="text">scotchbrand.
+                                        <br>
+                                        <span class="skills-used">frontend backend</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                    </div>  
+
+                    <div class="col-md-4 pt-4 project-animation">
+                        <div class="project-container">
+                            <%= image_tag("home/whc_thumb.jpg", alt: "whitetailhabitatconsulting",class: "askew-1 project img-fluid") %>
+                            <%= link_to '/projects/whc' do %>
+                                <div class="overlay">
+                                    <div class="text">whitetailhabitatconsulting.
+                                        <br>
+                                        <span class="skills-used">design frontend ux backend</span>
+                                    </div>
+                                </div>
+                            <% end  %>
+                        </div>
+                        <br><br>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+
+
+        <section id="contact">
+        
+        </section>
+   
+        <section id="footer">
+            <div class="text-center">
+                <%= image_tag("icons/chevron-double-up.png", alt: "dolefoodservice",class: "img-fluid double-chevron") %>
+                <%= link_to 'https://www.linkedin.com/in/brett-bartylla/' do %>
+                    <%= image_tag("icons/linkedin.png", alt: "dolefoodservice",class: "img-fluid social-icn linkedin") %>
+               <% end %>
+               <%= link_to 'https://gist.github.com/brettbartylla' do %> 
+                    <%= image_tag("icons/github-face.png", alt: "dolefoodservice",class: "img-fluid social-icn") %>
+                <% end %>
+
+                <p class="footnote">BRETT BARTYLLA <span class="highlight">©2018</span></p>
+
+            </div>
+        </section>
+
+
+
+
+
+    </div>
+
+</div>
+<!--end overflow wrap-->

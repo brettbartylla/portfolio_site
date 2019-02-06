@@ -1,0 +1,49 @@
+//buttons styles
+@import "partials/fonts";
+
+.btn-custom{
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle
+}
+
+.btn-my-work{
+    
+    color:#fff;
+    font-size: 16pt;
+    font-family: $base-font-family;
+    font-weight: $light;
+    border: solid #fff 2px;
+    padding: 12px 20px 12px 20px;
+    .fa-arrow-right{
+        transition-duration: .3s;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+.home-txt{
+    a:active, a:visited, a:focus {
+        color:#fff;
+        text-decoration: none;
+    }
+
+}
+.btn-my-work:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color: #04C2C9;
+    border-color: #04C2C9;
+
+    .fa-arrow-right{
+        transition-duration: .3s;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+}
+.home-txt:hover{
+
+}

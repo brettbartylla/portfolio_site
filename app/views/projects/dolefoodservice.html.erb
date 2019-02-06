@@ -1,0 +1,103 @@
+<style>
+.navbar{
+    justify-content:center;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <%= link_to 'Home', '/', class:'nav-link' %> 
+      </li>
+    <li class="nav-item">
+        <%= link_to 'Previous', '/projects/riosoutdoorco', class:'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Next', '/projects/post-it', class:'nav-link' %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container projects">
+    <!--header section-->
+    <div class="row section-margin">
+        <div class="col-md-12">
+            <h1 class="project-header">DOLE Foodservice</h1>
+        </div>
+    </div>
+    <!--intro section GET THIS FULL WIDTH-->
+    <div class="row intro">
+        <div class="col-md-12 light-grey-bg">
+            <div class="row">
+                <div class="col-md-6 pt-2">
+                    <p>Dole Packaged Foods is a fully integrated worldwide producer of fruits operating in 16 
+                    countries. Dole markets a full line of canned, jarred, bottled, pouch, dried, frozen, and 
+                    aseptic fruit products and is an innovator in new forms of packaging and processing fruit. 
+                    In the US, Dole is the No. 1 brand in canned pineapple, Pineapple Juice, Fruit Bowls®, 
+                    fruit jars, and frozen fruits. </p>
+                </div>
+                <div class="col-md-6 pt-3 pb-3">
+                    <%= link_to image_tag("home/dolefoodservice_thumb.jpg", alt: "dole food service",class: "askew-1 project img-fluid"), 'http://dolefoodservice.com' %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills section-->
+    <div class="row section-margin">
+        <div class="col-md-12 text-left">
+            <div class="">
+                <h1>Skills Used</h1>
+                <p class="highlight focus-text"></span><span class="highlight focus-text">Ruby on Rails, </span><span class="highlight focus-text">AWS, </span> <span class="">HMLT5,</span> <span class="highlight focus-text">SASS,</span> <span class="highlight focus-text">Bootstrap 4, </span><span class="highlight focus-text">jQuery, </span> <span class="highlight focus-text">CSS Grid </span><span class="highlight focus-text"></span></p>
+            </div>
+        </div>
+    </div>
+    <!--end skills section-->
+
+
+
+    <!--description section-->
+    <div class="row description section-margin">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li><b>Role.</b></li>
+                        <li>FrontEnd / UX Design</li>
+                        <li><b>Type.</b></li>
+                        <li>Large Corporation</li>
+                        <li><b>Year.</b></li>
+                        <li>2017</li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I have been involved in coding, designing and maintaining the front end for this website since 2017. 
+                        Dole Foodservice is built using the Ruby on Rails Framework, bootstrap, and jQuery. Some noteworthy 
+                        features I coded include an ajax emailer, social media feed using the Instagram API and a
+                        jQuery cost saving calculators. I've designed each page using both Adobe XD and InDesign.    
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills section
+    <div class="row section-margin">
+        <div class="col-md-12 text-left">
+            <div class="row">
+                <h1>Skills</h1>
+                <p>Dole Foodservice is built using the Ruby on Rails Framework, bootstrap, and jQuery. 
+                    Some noteworthy features I coded include an ajax emailer, social media feed using the Instagram API and a
+                    jQuery cost saving calculators. I've designed each page using both Adobe XD and InDesign.</p>
+                
+            </div>
+        </div>
+    </div>
+    -->
+</div>

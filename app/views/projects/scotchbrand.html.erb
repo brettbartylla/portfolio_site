@@ -1,0 +1,98 @@
+<style>
+.navbar{
+    justify-content:center;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <%= link_to 'Home', '/', class:'nav-link' %> 
+      </li>
+    <li class="nav-item">
+        <%= link_to 'Previous', '/projects/post-it', class:'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Next', '/projects/whc', class:'nav-link' %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="container projects">
+    <!--header section-->
+    <div class="row section-margin">
+        <div class="col-md-12">
+            <h1 class="project-header">Scotchbrand</h1>
+        </div>
+    </div>
+    <!--intro section GET THIS FULL WIDTH-->
+    <div class="row intro">
+        <div class="col-md-12 light-grey-bg">
+            <div class="row">
+                <div class="col-md-6 pt-2">
+                    <p>
+                        Scotch™ Brand and 3M have offered more than 400 varieties of 
+                        adhesive tape and countless other products from spray adhesives 
+                        and super glue to tape dispensers and laminators.
+                    </p>
+                </div>
+                <div class="col-md-6 pt-3 pb-3">
+                    <%= link_to image_tag("scotchbrand.png", alt: "dole food service",class: "askew-1 project img-fluid"), 'http://dolefoodservice.com' %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills section-->
+    <div class="row section-margin">
+        <div class="col-md-12 text-left">
+            <div class="">
+                <h1>Skills Used</h1>
+                <p class="highlight focus-text"></span><span class="">HMLT5,</span> <span class="highlight focus-text">SASS, </span><span class="highlight focus-text">jQuery, </span><span class="highlight focus-text">CMS</span></p>
+            </div>
+        </div>
+    </div>
+    <!--end skills section-->
+
+    <!--description section-->
+    <div class="row description section-margin">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li><b>Type.</b></li>
+                        <li>Large Corporation</li>
+                        <li><b>Role.</b></li>
+                        <li>FrontEnd / CMS Architecture</li>
+                        <li><b>Year.</b></li>
+                        <li>2016 -2018</li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        While working on the Architecture and Framework team at 3M I developed responsive CSS styles for the majority of the HTML elements making up this page while also 
+                        maintaining, making updates fixing bugs on the site. Additionally, I built some of the design pattern libraries that are used on the page, some of which include
+                        the video player which uses the Brightcove API, Hero Banner Image Builder, and contact forms that connect to Eloqua marketing campaigns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills section
+    <div class="row section-margin">
+        <div class="col-md-12 text-left">
+            <div class="row">
+                <h1>Skills</h1>
+                <p>Dole Foodservice is built using the Ruby on Rails Framework, bootstrap, and jQuery. 
+                    Some noteworthy features I coded include an ajax emailer, social media feed using the Instagram API and a
+                    jQuery cost saving calculators. I've designed each page using both Adobe XD and InDesign.</p>
+                
+            </div>
+        </div>
+    </div>
+    -->
+</div>
